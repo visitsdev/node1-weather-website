@@ -1,0 +1,64 @@
+body {
+    color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: url(/img/lightning.gif) no-repeat;
+    background-size: cover;
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+header {
+    font-size: 25px;
+    margin-top: 16px;
+    margin-bottom: 48;
+}
+
+h1 {
+    font-family: Brush Script MT;
+    color: #c96363;
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+
+header a {
+    font-family: "Lucida Console", Courier, monospace;
+    color: #06dac8;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 125px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color: white;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
